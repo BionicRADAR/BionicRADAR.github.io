@@ -1,0 +1,13 @@
+ul {
+	list-style-type: none;
+}
+
+.content {
+	max-width: 960px;
+	margin: auto;
+}
+
+.postimage {
+	width: 64px;
+	display: inline;
+}
