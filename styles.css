@@ -1,5 +1,8 @@
-ul {
-	list-style-type: none;
+body {
+	color: #45484d;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .content {
@@ -8,6 +11,18 @@ ul {
 }
 
 .postimage {
-	width: 64px;
-	display: inline;
+	width: 128px;
+	float: left;
+	clear: both;
+	margin-right: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+.post {
+	overflow: auto;
+	margin: 5px;
 }
