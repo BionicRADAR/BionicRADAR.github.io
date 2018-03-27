@@ -1,0 +1,30 @@
+body {
+	color: #45484d;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: green;
+}
+
+.content {
+	max-width: 960px;
+	margin: auto;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.postimage {
+	width: 128px;
+	float: left;
+	clear: both;
+	margin-right: 5px;
+}
+
+
+
+.post {
+	overflow: auto;
+	margin: 5px;
+}
